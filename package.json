@@ -1,0 +1,20 @@
+{
+  "name": "rejmq",
+  "version": "1.0.0",
+  "description": "a redis message queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/redistest.js"
+  },
+  "keywords": [
+    "mq"
+  ],
+  "author": "jinbel",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "merge-descriptors": "^1.0.1",
+    "redis": "^2.7.1"
+  }
+}
